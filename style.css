@@ -1,0 +1,74 @@
+/*Developer Idris Ahmed*/
+body{
+	width:100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+	text-align:center;}
+.mic{
+	width:30%;
+	height: 30%;
+	background-color: white;
+	margin:auto;
+	border:5px solid green;
+	padding: 5%;
+	padding-bottom: 15%;
+	margin-top: 20%;
+	transform:rotateY(30deg);
+	transform: skewY(30deg);}
+.mic h1{
+	padding-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	float: left;
+	font-size: 80px;
+	font-weight: bolder;
+	font-family: cursive;}
+.red{
+	width:49%;
+	height: 49%;
+	float: left;
+	background-color: red;
+	box-shadow: -12px -12px 12px  12px red;
+	border-top-left-radius: 10%;
+	border-top-right-radius:30%;
+	border-bottom-left-radius: 30%;
+	transform: skewY(5deg);}
+.green{
+	width:49%;
+	height: 49%;
+	background-color: green;
+	float: right;
+	box-shadow: 12px -12px 12px 12px green;
+	border-top-right-radius: 10%;
+	border-top-left-radius:30%;
+	border-bottom-right-radius: 30%;
+  transform: skewY(-5deg);}
+.blue {
+	width:49%;
+	height: 49%;
+	background-color: blue;
+	float:left;
+	margin-top: 5%;
+	box-shadow: -12px 12px 12px 12px blue;
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius:10%;
+	border-top-left-radius: 30%;
+  	transform: skewY(-5deg);}
+.orange{
+	width:49%;
+	height: 49%;
+	float: right;
+	background-color: orange;
+	margin-top: 5%;
+	box-shadow: 12px 12px 12px 12px orange;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius:10%;
+	border-top-right-radius: 30%;
+  transform: skewY(5deg);}
+
+#s0{    color: red;}
+#s1{	color: green;}
+#s2{    color: blue;}
+#s3{    color: orange;}
